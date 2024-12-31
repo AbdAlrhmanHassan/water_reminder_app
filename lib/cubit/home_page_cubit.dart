@@ -7,7 +7,9 @@ part 'home_page_state.dart';
 class HomePageCubit extends Cubit<HomePageState> {
   HomePageCubit() : super(HomePageInitial());
 
+
   bool firstTime = true;
+  
   double c = 0;
   int userWeight = 60;
   int day = DateTime.now().day;
